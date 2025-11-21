@@ -12,7 +12,12 @@
                 {%for item in items%}
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="{{ item.image.url }}" alt="{{ item.name }}" class="card-img-top">
+                        {% if item.image %}
+    <img src="{{ item.image.url }}" alt="{{ item.name }}" class="card-img-top">
+{% else %}
+    <img src="/static/img/no-image.png" alt="Sin imagen" class="card-img-top">
+{% endif %}
+
                         <div class="card-body">
                             <h5 class="card-title"> {{ item.name }} - {{ item.price }}</h5>
                             <p class="card-text">{{ item.description }}</p>
