@@ -33,11 +33,11 @@
 Django es un framework de desarrollo web basado en Python que nos permite crear aplicaciones de manera rápida, segura y eficiente. Su mayor ventaja es que ya incluye muchas herramientas listas para usar, como manejo de usuarios, panel de administración, conexión con bases de datos y control de URLs.
 
 Además, Django sigue el principio "No te repitas" (DRY - Don't Repeat Yourself), lo que ayuda a mantener un código más limpio y fácil de mantener. Gracias a su estructura clara y su arquitectura MVT (Model-View-Template), es ideal tanto para principiantes como para proyectos profesionales de gran tamaño.
-![][image1]
+
 ---
-
+![][image1]
 ## <a id="comandos"></a>3. Explicación de los comandos vistos en clase
-
+![][image1]
 ### 1. venv\Scripts\activate
 
 Este comando sirve para activar el entorno virtual en Python. El entorno virtual es un espacio aislado donde instalamos Django y otras dependencias sin afectar el sistema principal. Cuando lo activamos, todos los paquetes se instalan solo dentro de ese entorno.
